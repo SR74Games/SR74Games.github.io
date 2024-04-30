@@ -1,5 +1,4 @@
 *  {
-	color: red;
 	font-family: "Lucida Sans", "Trebuchet MS";
 }
 body {
@@ -9,9 +8,15 @@ a {
 	color: #4444ff;
 }
 .center {
-	text-align: center; 
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
 	border-radius:20px;
+}
+h1, h2 {
+	color: red;
+}
+h3 {
+	color: #4444ff;
+}
+p {
+	width:60%;
+	color:yellow;
 }
