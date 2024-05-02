@@ -8,7 +8,7 @@ h1 {
 meter {
   width: 500px;
   height: 25px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 3px;
 }
 meter::-webkit-meter-bar {
