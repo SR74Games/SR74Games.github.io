@@ -1,6 +1,5 @@
 progress[value] {
-  /* Reset the default appearance */
-  appearance: progress-bar;
+  appearance: auto;
   width: 200px;
   height: 20px;
 }
