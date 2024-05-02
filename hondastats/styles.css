@@ -6,9 +6,9 @@ progress{
 	border:none;
 }
 progress[value]::-webkit-progress-bar {
-  background-color: #eee;
+  background-color: #006;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.60) inset;
 }
 progress[value]::-webkit-progress-value {
   background-image:
