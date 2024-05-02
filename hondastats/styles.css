@@ -2,21 +2,22 @@
 	color:red;
 	font-family:Verdana, sans-serif;
 }
-progress{
-	border:none;
+meter {
+  width: 500px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
-progress[value]::-webkit-progress-bar {
+meter::-webkit-meter-bar {
+  /*background: none;  Required to get rid of the default background property */
   background-color: #006;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.60) inset;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
+  border:none;
 }
-progress[value]::-webkit-progress-value {
-  background-image:
-	   -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, blue, red);
-
-    border-radius: 5px; 
-    background-size: 35px 20px, 100% 100%, 100% 100%;
+meter::-webkit-meter-optimum-value {
+  box-shadow: 0 5px 5px -5px #999 inset;
+  background-image: -webkit-linear-gradient(45deg, blue, red);
+  border-radius:3px;
 }
 fieldset {
 	border:2px solid red;
