@@ -12,7 +12,7 @@ meter {
   border: none;
 }
 meter::-webkit-meter-bar {
-  /*background: none;  Required to get rid of the default background property */
+  background: none;/*  Required to get rid of the default background property */
   background-color: #006;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border:none;
