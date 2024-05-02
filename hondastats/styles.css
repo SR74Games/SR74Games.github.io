@@ -3,7 +3,7 @@ progress[value] {
   -webkit-appearance: none;
    appearance: none;
 
-  width: 250px;
+  width: 200px;
   height: 20px;
 }
 progress[value]::progress-bar {
