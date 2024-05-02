@@ -8,8 +8,8 @@ h1 {
 meter {
   width: 500px;
   height: 25px;
-  border: none;
   border-radius: 3px;
+  border: none;
 }
 meter::-webkit-meter-bar {
   /*background: none;  Required to get rid of the default background property */
@@ -21,6 +21,7 @@ meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
   background-image: -webkit-linear-gradient(45deg, blue, red);
   border-radius:3px;
+	border:none;
 }
 fieldset {
 	border:2px solid red;
