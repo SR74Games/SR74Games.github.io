@@ -43,6 +43,7 @@ figure {
   width:200px;
   margin:2px;
   margin-top:5px;
+  display:inline;
 }
 img {
   border-radius:3px;
