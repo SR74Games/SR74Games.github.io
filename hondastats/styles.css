@@ -41,7 +41,11 @@ figure {
   border:2px solid red;
   border-radius:5px;
   width:200px;
+  margin:10px;
 }
 img {
   border-radius:5px;
+}
+figcaption{
+  padding:5px;
 }
