@@ -1,13 +1,13 @@
 * {
   color:red;
-  font-family:Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 h1 {
-  font-family:Futura, sans-serif;
+  font-family: Futura, sans-serif;
 }
 meter {
-  width:70%;
-  height:25px;
+  width: 70%;
+  height: 25px;
   border-radius: 10px;
   border: none;
 }
@@ -16,38 +16,45 @@ meter::-webkit-meter-bar {
   background-color: #006;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border-radius: 10px;
-  border:none;
+  border: none;
 }
 meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
   background-image: -webkit-linear-gradient(45deg, blue, red);
   border-radius: 10px;
-  border:none;
+  border: none;
 }
 fieldset {
-  border:2px solid red;
-  border-radius:5px;
+  border: 2px solid red;
+  border-radius: 5px;
 }
 legend {
-  border:2px solid red;
-  border-radius:5px;
-  color:red;
-  font-family:sans-serif;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: red;
+  font-family: sans-serif;
 }
 body {
-  background-color:darkblue;
+  background-color: darkblue;
 }
 figure {
-  border:2px solid red;
-  border-radius:5px;
-  margin:2px;
-  margin-top:5px;
-  display:inline-block;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 2px;
+  margin-top: 5px;
+  display: inline-block;
 }
 img {
-  border-radius:3px;
+  border-radius: 3px;
 }
 figcaption{
-  padding:5px;
-  padding-top:0;
+  padding: 5px;
+  padding-top: 0;
+}
+ul p {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  margin: 2px;
 }
