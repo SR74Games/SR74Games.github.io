@@ -3,10 +3,10 @@
   font-family:Verdana, sans-serif;
 }
 h1 {
-  font-family:Futura
+  font-family:Futura, sans-serif;
 }
 meter {
-  width:500px;
+  width:70%;
   height:25px;
   border-radius: 10px;
   border: none;
