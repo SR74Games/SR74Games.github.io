@@ -27,6 +27,7 @@ meter::-webkit-meter-optimum-value {
 fieldset {
   border: 2px solid red;
   border-radius: 5px;
+  margin-bottom:5px;
 }
 legend {
   border: 2px solid red;
