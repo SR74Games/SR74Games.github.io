@@ -20,7 +20,7 @@ meter::-webkit-meter-bar {
 }
 meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
-  background-image: -webkit-linear-gradient(45deg, #f40, red);
+  background-image: -webkit-linear-gradient(45deg, #f60, red);
   border-radius: 10px;
   border: none;
 }
