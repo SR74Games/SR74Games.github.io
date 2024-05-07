@@ -2,26 +2,6 @@
   color:#f40;
   font-family: Verdana, sans-serif;
 }
-meter {
-  position: relative;
-}
-meter .tooltiptext {
-  visibility: hidden;
-  width: 70px;
-  background-color: #222;
-  color: #f40;
-  text-align: center;
-  border-radius: 5px;
-  padding: 5px 0;
-  font-size: 0.8em;
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-meter:hover .tooltiptext {
-  visibility: visible;
-}
 h1 {
   font-family: Futura, sans-serif;
 }
