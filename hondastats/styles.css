@@ -2,6 +2,11 @@
   color:#8ce;
   font-family: Verdana, sans-serif;
 }
+blink, .blink-css {
+  animation: blink 1s step-end infinite; }
+@keyframes blink {
+  67% { opacity: 0 }
+}
 h1 {
   font-family: Futura, sans-serif;
 }
