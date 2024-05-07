@@ -2,6 +2,11 @@
   <head>
     <title>Projects in progress</title>
     <link rel="stylesheet" href="/styles.css">
+    <style>
+      meter::-webkit-meter-optimum-value, meter::-webkit-meter-suboptimum-value, meter::-webkit-meter-even-less-good-value {
+        transition: 1s width;
+      }
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -9,5 +14,7 @@
     <ul>
       <li><a href="/hondastats/">Honda Stats</a></li>
     </ul>
+    <label for="test">Test </label>
+    <meter value="1" id="test"></meter>
   </body>
 </html>
