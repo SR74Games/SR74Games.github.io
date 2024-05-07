@@ -28,6 +28,7 @@ meter::-webkit-meter-optimum-value {
   background-image: -webkit-linear-gradient(45deg, cyan, blue);
   border-radius: 10px;
   border: none;
+  transition: width 0.5s;
 }
 fieldset {
   border: 2px solid #8ce;
