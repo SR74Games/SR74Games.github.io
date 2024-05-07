@@ -2,20 +2,18 @@
   color:#f40;
   font-family: Verdana, sans-serif;
 }
-.tooltip {
+meter {
   position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
 }
-.tooltip .tooltiptext {
+meter .tooltiptext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  width: 70px;
+  background-color: #222;
+  color: #f40;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 5px;
   padding: 5px 0;
-
+  font-size: 0.8em;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
