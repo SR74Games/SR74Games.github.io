@@ -14,7 +14,7 @@ header {
   height:15%;
 }
 #main {
-  margin-top:15%;
+  margin-top:75px;
 }
 blink, .blink-css {
   animation: blink 1s step-end infinite; }
