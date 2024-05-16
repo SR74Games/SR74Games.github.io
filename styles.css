@@ -30,7 +30,7 @@ meter {
   height: 25px;
   border-radius: 10px;
   border: none;
-  z-index:0;
+  z-index:-1;
 }
 meter::-webkit-meter-bar {
   background: none;/*  Required to get rid of the default background property */
