@@ -4,6 +4,7 @@
 }
 #topnav {
   float:right;
+  margin-left:20px;
 }
 header {
   position: fixed;
