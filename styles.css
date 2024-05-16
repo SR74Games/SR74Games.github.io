@@ -4,15 +4,15 @@
 }
 #topnav {
   float:right;
-  margin-left:20px;
 }
 header {
   position: fixed;
   top:0;
   left:0;
   border-bottom:2px solid #8ce;
-  width:100%;
+  width:98%;
   height:65px;
+  background-color:#333;
 }
 #main {
   margin-top:75px;
