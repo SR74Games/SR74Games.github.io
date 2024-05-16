@@ -30,6 +30,7 @@ meter {
   height: 25px;
   border-radius: 10px;
   border: none;
+  z-index:0;
 }
 meter::-webkit-meter-bar {
   background: none;/*  Required to get rid of the default background property */
@@ -43,9 +44,6 @@ meter::-webkit-meter-optimum-value {
   background-image: -webkit-linear-gradient(45deg, cyan, blue);
   border-radius: 10px;
   border: none;
-}
-meter::-webkit-meter-optimum-value, meter::-webkit-meter-suboptimum-value, meter::-webkit-meter-even-less-good-value {
-  transition: 1s width;
 }
 fieldset {
   border: 2px solid #8ce;
