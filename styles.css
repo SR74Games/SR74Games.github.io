@@ -13,6 +13,7 @@ header {
   width:98%;
   height:65px;
   background-image:linear-gradient(#666, #333);
+  z-index:5;
 }
 #main {
   margin-top:75px;
@@ -30,7 +31,6 @@ meter {
   height: 25px;
   border-radius: 10px;
   border: none;
-  z-index:-1;
 }
 meter::-webkit-meter-bar {
   background: none;/*  Required to get rid of the default background property */
