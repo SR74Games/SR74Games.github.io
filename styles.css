@@ -5,6 +5,8 @@ footer {
   left: 0;
   width: 100%;
   border-top: 1px solid #8ce;
+  background-color: #333;
+  height: 35px
 }
 * {
   color:#8ce;
@@ -25,6 +27,7 @@ header {
 }
 #main {
   margin-top:75px;
+  margin-bottom: 45px;
 }
 blink, .blink-css {
   animation: blink 1s step-end infinite; }
