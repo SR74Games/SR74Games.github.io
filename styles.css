@@ -1,3 +1,10 @@
+footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #8ce;
+}
 * {
   color:#8ce;
   font-family: Verdana, sans-serif;
