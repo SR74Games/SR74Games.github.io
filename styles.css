@@ -15,16 +15,6 @@ footer p {
   margin-top: 0;
   font-size: 15px;
 }
-#side {
-  min-height: 100%;
-  float: left;
-  margin-top: 60px;
-  margin-bottom: 45px;
-  margin-right:10px;
-  border-right: 2px solid #0BDA51;
-  width:20%;
-  position:fixed;
-}
 #side ul li {
   display:block;
   margin-left:auto;
@@ -38,11 +28,22 @@ footer p {
 #side ul li a {
   text-decoration:none;
 }
-@media only screen and (max-width:500px;) {
+#side {
+  min-height: 100%;
+  float: left;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  margin-right:10px;
+  border-right: 2px solid #0BDA51;
+  width:20%;
+  position:fixed;
+}
+@media only screen and (max-width: 600px) {
   #side {
     display:none;
   }
 }
+
 * {
   color: #0BDA51;
   font-family: Verdana, sans-serif;
