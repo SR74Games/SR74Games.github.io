@@ -6,7 +6,7 @@ footer {
   width: 100%;
   border-top: 1px solid #0BDA51;
   background-color: #039;
-  height: 26px;
+  height: 26px !important;
   padding-top: 0;
 }
 footer p {
