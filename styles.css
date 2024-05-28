@@ -9,7 +9,6 @@ footer {
   height: 26px !important;
   padding-top: 0;
 }
-
 footer p {
   padding: 3px;
   margin-top: 0;
@@ -41,6 +40,9 @@ footer p {
 @media only screen and (max-width: 600px) {
   #side {
     display:none;
+  }
+  #main {
+    width:100%;
   }
 }
 
