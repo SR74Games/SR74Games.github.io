@@ -48,7 +48,7 @@ meter {
   border: none;
 }
 meter::-webkit-meter-bar {
-  background: none;/*  Required to get rid of the default background property */
+  background: none;
   background-color: #222;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border-radius: 10px;
@@ -56,7 +56,7 @@ meter::-webkit-meter-bar {
 }
 meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
-  background-image: -webkit-linear-gradient(45deg, blue, #0BDA51);
+  background-image: #0BDA51;
   border-radius: 10px;
   border: none;
 }
