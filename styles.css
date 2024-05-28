@@ -55,6 +55,7 @@ header {
 #main {
   margin-top:75px;
   margin-bottom: 45px;
+  float:right;
 }
 blink, .blink-css {
   animation: blink 1s step-end infinite; }
