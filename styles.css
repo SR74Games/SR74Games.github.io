@@ -20,14 +20,14 @@ footer p {
   margin-top: 75px;
   margin-bottom: 45px;
   border-right: 2px solid #0BDA51;
-  width:33%;
+  width:20%;
 }
 #side ul li {
   display:block;
   margin-left:auto;
   margin-right:auto;
   text-transform:uppercase;
-  width:30%;
+  width:67%;
   text-align:center;
   border:2px solid #0bda51;
 }
