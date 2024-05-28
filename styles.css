@@ -56,7 +56,7 @@ meter::-webkit-meter-bar {
 }
 meter::-webkit-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
-  background-image: #0BDA51;
+  background-image:linear-gradient(#0BDA51,lime);
   border-radius: 10px;
   border: none;
 }
