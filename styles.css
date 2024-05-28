@@ -17,7 +17,7 @@ footer p {
 #side {
   min-height: 100%;
   float: left;
-  margin-top: 67px;
+  margin-top: 65px;
   margin-bottom: 45px;
   margin-right:10px;
   border-right: 2px solid #0BDA51;
@@ -54,7 +54,7 @@ header {
   z-index:5;
 }
 #main {
-  margin-top:67px;
+  margin-top:65px;
   margin-bottom: 45px;
   float:right;
   width:78%;
