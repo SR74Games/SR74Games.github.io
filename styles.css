@@ -17,7 +17,7 @@ footer p {
 #side {
   min-height: 100%;
   float: left;
-  margin-top: 75px;
+  margin-top: 67px;
   margin-bottom: 45px;
   border-right: 2px solid #0BDA51;
   width:20%;
@@ -53,9 +53,10 @@ header {
   z-index:5;
 }
 #main {
-  margin-top:75px;
+  margin-top:67px;
   margin-bottom: 45px;
   float:right;
+  min-width:80%;
 }
 blink, .blink-css {
   animation: blink 1s step-end infinite; }
