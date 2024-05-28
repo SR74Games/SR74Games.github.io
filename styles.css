@@ -21,6 +21,7 @@ footer p {
   margin-bottom: 45px;
   border-right: 2px solid #0BDA51;
   width:20%;
+  position:fixed;
 }
 #side ul li {
   display:block;
