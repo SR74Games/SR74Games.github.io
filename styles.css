@@ -42,7 +42,10 @@ footer p {
     display:none;
   }
   #main {
-    width:100%;
+    width:100% !important;
+  }
+  #topnav a {
+    display:none;
   }
 }
 
