@@ -43,6 +43,9 @@ footer p {
   #main {
     width:100% !important;
   }
+  #topnav p {
+    display:none;
+  }
   #topnav a {
     display:block;
     text-align:right;
@@ -50,12 +53,6 @@ footer p {
   }
 }
 @media only screen and (min-width: 600px) {
-  #topnav a:first:after, #topnav a:even:after {
-    content:" |";
-  }
-  #topnav a:last:after {
-    content:" ";
-  }
   #topnav a {
     text-decoration:none;
   }
