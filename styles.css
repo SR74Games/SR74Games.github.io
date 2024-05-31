@@ -50,7 +50,7 @@ footer p {
   }
 }
 @media only screen and (min-width: 600px) {
-  #topnav a:after {
+  #topnav a:not:last:after {
     content:" |";
   }
   #topnav a:last:after {
