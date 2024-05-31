@@ -43,7 +43,7 @@ footer p {
   #main {
     width:100% !important;
   }
-  #topnav p {
+  #topnav span {
     display:none;
   }
   #topnav a {
