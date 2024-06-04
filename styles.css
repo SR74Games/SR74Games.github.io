@@ -80,11 +80,6 @@ header {
   float:right;
   width:78%;
 }
-blink, .blink-css {
-  animation: blink 1s step-end infinite; }
-@keyframes blink {
-  67% { opacity: 0 }
-}
 h1 {
   font-family: Futura, sans-serif;
 }
@@ -93,7 +88,7 @@ meter {
   height: 25px;
   border-radius: 10px;
   border: none;
-  background:linear-gradient(#0BDA51,lime);
+  color:linear-gradient(#0BDA51,lime);
 }
 meter::-webkit-meter-bar {
   background: none;
