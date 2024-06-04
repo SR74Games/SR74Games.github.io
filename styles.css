@@ -90,7 +90,6 @@ meter {
   border: none;
 }
 meter::-webkit-meter-bar {
-  background: none;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border-radius: 10px;
   border: none;
