@@ -88,7 +88,6 @@ meter {
   height: 25px;
   border-radius: 10px;
   border: none;
-  color:linear-gradient(#0BDA51,lime);
 }
 meter::-webkit-meter-bar {
   background: none;
@@ -141,4 +140,22 @@ ul {
 li {
   margin-left: 0;
   display: inline;
+}
+*::-moz-meter-bar {
+  -moz-appearance: meterchunk;
+  display: inline-block !important;
+  float: none !important;
+  position: static !important;
+  overflow: visible !important;
+  background: none;
+  background-color: #222;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
+  border-radius: 10px;
+  border: none;
+}
+:-moz-meter-optimum::-moz-meter-bar {
+  box-shadow: 0 5px 5px -5px #999 inset;
+  background-image:linear-gradient(#0BDA51,lime);
+  border-radius: 10px;
+  border: none;
 }
