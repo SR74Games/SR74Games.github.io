@@ -4,10 +4,11 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  border-top: 1px solid #0BDA51;
+  border-top: 2px solid #0BDA51;
   background-color: #039;
   height: 26px !important;
   padding-top: 0;
+  overflow: scroll;
 }
 footer p {
   padding: 3px;
