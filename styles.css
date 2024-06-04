@@ -147,7 +147,6 @@ li {
   float: none !important;
   position: static !important;
   overflow: visible !important;
-  background: none;
   background-color: #222;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border-radius: 10px;
