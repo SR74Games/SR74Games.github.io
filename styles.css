@@ -94,14 +94,14 @@ meter {
   border-radius: 10px;
   border: none;
 }
-meter::-webkit-meter-bar {
+meter::-webkit-meter-bar, meter::-moz-meter-bar {
   background: none;
   background-color: #222;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border-radius: 10px;
   border: none;
 }
-meter::-webkit-meter-optimum-value {
+meter::-webkit-meter-optimum-value, meter::-moz-meter-optimum-value {
   box-shadow: 0 5px 5px -5px #999 inset;
   background-image:linear-gradient(#0BDA51,lime);
   border-radius: 10px;
