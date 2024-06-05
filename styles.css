@@ -51,6 +51,7 @@ footer p {
     display:block;
     text-align:right;
     text-decoration:none;
+    margin-right:5px;
   }
 }
 @media only screen and (min-width: 600px) {
