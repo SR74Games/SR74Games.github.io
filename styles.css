@@ -87,7 +87,7 @@ h1 {
 }
 meter {
   width: 70%;
-  height: 25px;
+  height: 25px !important;
   border-radius: 10px;
   border: none;
 }
