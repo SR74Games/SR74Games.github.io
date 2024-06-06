@@ -142,7 +142,7 @@ li {
   display: inline;
 }
 *::-moz-meter-bar {
-  height:10px;
+  height:25px;
   -moz-appearance: meterchunk;
   display: inline-block !important;
   float: none !important;
