@@ -11,7 +11,15 @@ function init(){
         var f = Math.floor(Math.random() * notes.length);
         var g = Math.floor(Math.random() * notes.length);
         var h = Math.floor(Math.random() * notes.length);
-        var sequence = notes[a] + notes[b] + notes[c] + notes[d] + notes[e] + notes[f] + notes[g] + notes[h];
+        var i = Math.floor(Math.random() * notes.length);
+        var j = Math.floor(Math.random() * notes.length);
+        var k = Math.floor(Math.random() * notes.length);
+        var l = Math.floor(Math.random() * notes.length);
+        var m = Math.floor(Math.random() * notes.length);
+        var n = Math.floor(Math.random() * notes.length);
+        var o = Math.floor(Math.random() * notes.length);
+        var p = Math.floor(Math.random() * notes.length);
+        var sequence = notes[a] + notes[b] + notes[c] + notes[d] + notes[e] + notes[f] + notes[g] + notes[h] + notes[i] + notes[j] + notes[k] + notes[l] + notes[m] + notes[n] + notes[o] + notes[p];
         out.innerText = sequence;
 }
 window.onload = init;
