@@ -8,6 +8,9 @@ body {
 li {
   list-style:none;
 }
+#side a {
+  padding-bottom:3px;
+}
 a, h1, p, legend {
   color: #0bda50;
 }
@@ -43,6 +46,7 @@ header img {
   float:left;
   background-color: #293133; 
   padding: 20px;
+  height:100%;
 }
 #main {
   width: 80%; 
