@@ -5,8 +5,17 @@ body {
   margin: 0;
   padding: 0;
 }
+ul {
+    padding-left:0;
+}
 li {
   list-style:none;
+  padding:3px;
+}
+fieldset {
+    border: 2px solid #0BDA50;
+    border-radius: 15px;
+    margin-bottom: 5px;
 }
 #side a {
   padding-bottom:3px;
@@ -14,7 +23,7 @@ li {
 a, h1, p, legend {
   color: #0bda50;
 }
-#topnav a {
+a {
   text-decoration:none;
 }
 a:hover {
@@ -44,13 +53,15 @@ header img {
 #side {
   width: 20%;
   float:left;
-  background-color: #293133; 
+  background-color: #293133;
   padding: 20px;
-  height:100%;
+  position: fixed;
+  height: 100%;
 }
 #main {
-  width: 80%; 
+  width: 74%;
   padding: 20px;
+  float: right;
 }
 footer {
   background-color: #191A1A; 
