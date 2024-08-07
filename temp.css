@@ -18,8 +18,11 @@ a, h1 {
 a:hover {
   color: #fff; 
 }
-
-
+#topnav span {
+  margin-top:auto;
+  margin-bottom:auto;
+  color:#0BDA50;
+}
 header {
   background-color: #191A1A; 
   padding: 20px;
