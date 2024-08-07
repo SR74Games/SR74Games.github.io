@@ -170,3 +170,6 @@ meter::-webkit-meter-optimum-value {
   border-radius: 20px;
   border: none;
 }
+#main {
+  overflow: hidden;
+}
