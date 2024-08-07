@@ -1,4 +1,3 @@
-
 body {
   background-color: #293133;
   color: #fff; 
@@ -30,34 +29,25 @@ header {
   justify-content: space-between; 
   align-items: center; 
 }
-
 header img {
   width: 150px; 
 }
-
 #topnav {
   display: flex;
 }
-
 #topnav a {
   padding: 10px; 
 }
-
-
 #side {
   width: 20%;
   float:left;
   background-color: #293133; 
   padding: 20px;
 }
-
-
 #main {
   width: 80%; 
   padding: 20px;
 }
-
-
 footer {
   background-color: #191A1A; 
   color:#0bda50;
