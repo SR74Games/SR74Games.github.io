@@ -8,7 +8,7 @@ body {
 li {
   list-style:none;
 }
-a, h1 {
+a, h1, p, legend {
   color: #0bda50;
 }
 #topnav a {
