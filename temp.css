@@ -106,7 +106,6 @@ footer {
 }
 h1 {
   margin-top:0;
-  font-family: kanit;
 }
 #main::-webkit-scrollbar {
   display: none;
@@ -114,4 +113,7 @@ h1 {
 #main {
   -ms-overflow-style: none;  
   scrollbar-width: none;  
+}
+* {
+    font-family: kanit;
 }
