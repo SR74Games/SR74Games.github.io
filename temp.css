@@ -40,6 +40,7 @@ header {
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
+  border-bottom: 2px solid #00FFC6;
 }
 header img {
   width: 150px; 
@@ -53,15 +54,18 @@ header img {
 #side {
   width: 20%;
   float:left;
-  background-color: #293133;
+  background-color: #191A1A;
   padding: 20px;
   position: fixed;
   height: 100%;
+  box-sizing: border-box;
+  border-right: 2px solid #00FFC6;
 }
 #main {
-  width: 74%;
+  width: 80%;
+  margin-left: 20%;
+  box-sizing: border-box;
   padding: 20px;
-  float: right;
 }
 footer {
   background-color: #191A1A; 
@@ -71,5 +75,9 @@ footer {
   position:fixed;
   bottom:0px;
   left:0;
-  width:100%
+  width:100%;
+  border-top: 2px solid #00FFC6;
+}
+h1 {
+  margin-top:0;
 }
