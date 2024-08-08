@@ -1,3 +1,7 @@
+@font-face {
+  font-family: kanit;
+  src: url(kanit.ttf);
+}
 body {
   background-color: #293133;
   color: #fff; 
@@ -102,6 +106,7 @@ footer {
 }
 h1 {
   margin-top:0;
+  font-family: kanit;
 }
 #main::-webkit-scrollbar {
   display: none;
