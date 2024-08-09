@@ -41,7 +41,7 @@ a, h1, p, legend {
   color: #00FFC6;
 }
 a, p, legend {
-  font-family: kanit-light;
+  font-family: kanit-light !important;
 }
 a {
   text-decoration:none;
