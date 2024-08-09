@@ -2,6 +2,10 @@
   font-family: kanit;
   src: url(kanit.ttf);
 }
+@font-face {
+  font-family: kanit-light;
+  src: url(Kanit-Light.ttf);
+}
 body {
   background-color: #293133;
   color: #fff; 
@@ -35,6 +39,9 @@ fieldset {
 }
 a, h1, p, legend {
   color: #00FFC6;
+}
+a, p, legend {
+  font-family: kanit-light;
 }
 a {
   text-decoration:none;
