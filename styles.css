@@ -37,10 +37,10 @@ fieldset {
 #side a {
   padding-bottom:3px;
 }
-a, h1, p, legend {
+a, h1, p, legend, span, label, figcaption {
   color: #00FFC6;
 }
-a, p, legend {
+a, p, legend, span, label, figcaption {
   font-family: kanit-light !important;
 }
 a {
@@ -123,4 +123,57 @@ h1 {
 }
 * {
     font-family: kanit;
+}
+meter {
+  width: 70% !important;
+  height: 15px;
+  border-radius: 10px;
+  border: none;
+}
+meter::-webkit-meter-bar {
+  height:15px !important;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
+  border-radius: 10px;
+  border: none;
+  background-color:#191A1A;
+}
+meter::-webkit-meter-optimum-value {
+  box-shadow: 0 5px 5px -5px #999 inset;
+  background-image:linear-gradient(#00FFC6, #019372);
+  border-radius: 10px;
+  border: none;
+}
+*::-moz-meter-bar {
+  height:15px;
+  -moz-appearance: meterchunk;
+  display: inline-block !important;
+  float: none !important;
+  position: static !important;
+  overflow: visible !important;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
+  border: none;
+}
+:-moz-meter-optimum::-moz-meter-bar {
+  box-shadow: 0 5px 5px -5px #999 inset;
+  background-image:linear-gradient(#019372, #00FFC6);
+  border-radius: 20px;
+  border: none;
+}
+figure {
+  border: 2px solid #00FFC6;
+  border-radius: 15px;
+  margin: 2px;
+  margin-top: 5px;
+  display: inline-block;
+}
+img {
+  border-radius: 11px;
+}
+figcaption{
+  padding: 5px;
+  padding-top: 0;
+  padding-left:10px;
+}
+ul p {
+  display: none;
 }
