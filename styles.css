@@ -128,14 +128,7 @@ figcaption{
 ul p {
   display: none;
 }
-ul {
-  list-style-type: none;
-  padding-left:0;
-}
-li {
-  margin-left: 0;
-  display: inline;
-}
+
 meter {
   width: 70% !important;
   height: 15px;
