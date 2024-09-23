@@ -72,6 +72,9 @@ footer p {
   #topnav a {
     text-decoration:none;
   }
+  #topnav a:hover {
+    text-decoration:underline;
+  }
 }
 * {
   color: #0BDA51;
@@ -137,7 +140,6 @@ figcaption{
 ul p {
   display: none;
 }
-
 meter {
   width: 70% !important;
   height: 15px;
