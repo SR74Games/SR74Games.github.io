@@ -27,8 +27,13 @@ footer p {
   border:2px solid #0bda51;
   overflow:hidden;
 }
+#side li:hover{
+  color:#039;
+  background-color:#0bda50;
+}
 #side ul li a {
   text-decoration:none;
+  color:inherit;
 }
 #side {
   height: 100%;
