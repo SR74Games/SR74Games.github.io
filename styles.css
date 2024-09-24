@@ -171,3 +171,10 @@ meter::-webkit-meter-optimum-value {
   border-radius: 20px;
   border: none;
 }
+#main {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+#main::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
