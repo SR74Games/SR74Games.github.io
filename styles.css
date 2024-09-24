@@ -35,10 +35,6 @@ footer p {
   text-decoration:none;
   color:inherit;
 }
-#side hr {
-  border-color:#0bda50;
-  width:90%;
-}
 #side {
   height: 100%;
   position:fixed;
@@ -141,25 +137,24 @@ figcaption{
   padding: 5px;
   padding-top: 0;
 }
-ul p {
-  display: none;
-}
 meter {
   width: 70% !important;
   height: 15px;
   border-radius: 10px;
   border: none;
+  margin-bottom: 5px;
+ 
 }
 meter::-webkit-meter-bar {
   height:15px !important;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
+  background:none;
+  background-image:linear-gradient(#0000,#0000);
 }
 meter::-webkit-meter-optimum-value {
-  box-shadow: 0 5px 5px -5px #999 inset;
-  background-image:linear-gradient(#0bda50,lime);
-  border-radius: 10px;
+  background-image:linear-gradient(#0bda50,#0bda50);
+  border-radius: 5px;
   border: none;
 }
 *::-moz-meter-bar {
@@ -169,15 +164,10 @@ meter::-webkit-meter-optimum-value {
   float: none !important;
   position: static !important;
   overflow: visible !important;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.60) inset;
   border: none;
 }
 :-moz-meter-optimum::-moz-meter-bar {
-  box-shadow: 0 5px 5px -5px #999 inset;
-  background-image:linear-gradient(#0bda50,lime);
+  background-image:linear-gradient(#0bda50,#0bda50);
   border-radius: 20px;
   border: none;
-}
-#main {
-  overflow: hidden;
 }
