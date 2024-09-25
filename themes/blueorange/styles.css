@@ -1,11 +1,10 @@
-
 footer {
   clear: both;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  border-top: 2px solid #FF8400;
+  border-top: 2px solid #ee8400;
   background-color: #003499;
   min-height: 20px;
   max-height: 5%;
@@ -25,14 +24,14 @@ footer p {
   margin-right:auto;
   width:67%;
   text-align:center;
-  border:2px solid #FF8400;
+  border:2px solid #ee8400;
   overflow:hidden;
   border-radius:5px;
   margin-top:2px;
 }
 #side li:hover{
   color:#003499;
-  background-color:#FF8400;
+  background-color:#ee8400;
 }
 #side ul a {
   text-decoration:none;
@@ -45,7 +44,7 @@ footer p {
   bottom: 5%;
   float: left;
   margin-right:10px;
-  border-right: 2px solid #FF8400;
+  border-right: 2px solid #ee8400;
   width:20%;
 }
 @media only screen and (max-width: 768px) {
@@ -85,7 +84,7 @@ footer p {
   }
 }
 * {
-  color: #FF8400;
+  color: #ee8400;
   font-family: Verdana, sans-serif;
 }
 #topnav {
@@ -95,7 +94,7 @@ header {
   position: fixed;
   top:0;
   left:0;
-  border-bottom:2px solid #FF8400;
+  border-bottom:2px solid #ee8400;
   width:100%;
   height:10%;
   min-height: 57px;
@@ -120,21 +119,21 @@ h1 {
   font-family: Futura, sans-serif;
 }
 fieldset {
-  border: 2px solid #FF8400;
+  border: 2px solid #ee8400;
   border-radius: 5px;
   margin-bottom: 10px;
 }
 legend {
-  border: 2px solid #FF8400;
+  border: 2px solid #ee8400;
   border-radius: 5px;
-  color: #FF8400f;
+  color: #ee8400f;
   font-family: sans-serif;
 }
 body {
   background-color: #003499;
 }
 figure {
-  border: 2px solid #FF8400;
+  border: 2px solid #ee8400;
   border-radius: 5px;
   margin: 2px;
   margin-top: 5px;
@@ -164,7 +163,7 @@ meter::-webkit-meter-bar {
   background-color:#0002;
 }
 meter::-webkit-meter-optimum-value {
-  background-image:linear-gradient(#FF8400,#FF8400);
+  background-image:linear-gradient(#ee8400,#ee8400);
   border-radius: 5px;
   border: none;
 }
@@ -179,7 +178,7 @@ meter::-webkit-meter-optimum-value {
   background-image:linear-gradient(#0000,#0000);
 }
 :-moz-meter-optimum::-moz-meter-bar {
-  background-image:linear-gradient(#FF8400,#FF8400);
+  background-image:linear-gradient(#ee8400,#ee8400);
   border-radius: 5px;
   border: none;
 }
