@@ -110,7 +110,7 @@ header {
   width:77%;
   overflow:scroll;
 }
-img[src="/stephenritchie74.png"] {
+img[src=$"/stephenritchie74.png"] {
   height:100%;
   min-height: 55px;
   width:fit-content;
