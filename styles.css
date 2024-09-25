@@ -45,7 +45,7 @@ footer p {
   border-right: 2px solid #0bda50;
   width:20%;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #side {
     display:none;
   }
@@ -68,12 +68,17 @@ footer p {
     display:none;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   #topnav a {
     text-decoration:none;
   }
   #topnav a:hover {
     text-decoration:underline;
+  }
+}
+@media only screen and (max-width: 321px) {
+  #topnav a {
+    display:none;
   }
 }
 * {
