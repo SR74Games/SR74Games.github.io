@@ -189,3 +189,12 @@ meter::-webkit-meter-optimum-value {
 #main::-webkit-scrollbar { 
     display: none;
 }
+label {
+  display:inline-block;
+  width:30%;
+}
+#main span {
+  display:inline-block;
+  width:70%;
+  text-align:right;
+}
