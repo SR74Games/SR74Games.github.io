@@ -26,6 +26,8 @@ footer p {
   text-align:center;
   border:2px solid #0bda50;
   overflow:hidden;
+  border-radius:5px;
+  margin-top:2px;
 }
 #side li:hover{
   color:#003499;
@@ -186,13 +188,4 @@ meter::-webkit-meter-optimum-value {
 }
 #main::-webkit-scrollbar { 
     display: none;
-}
-#main span {
-  display:inline-block;
-  width:70%;
-  text-align:right;
-}
-label {
-  display:inline-block;
-  width:30%;
 }
