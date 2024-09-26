@@ -198,3 +198,20 @@ label {
   width:70%;
   text-align:right;
 }
+#themewrapper {
+  display:inline-block;
+}
+select {
+  background-color:#003499;
+  border:2px solid #0bda50;
+  border-radius: 5px;
+  margin:1px;
+}
+select:focus-visible {
+  outline:none;
+}
+button {
+  background-color:#003499;
+  border:2px solid #0bda50;
+  border-radius: 5px;
+}
