@@ -3,11 +3,9 @@ function init() {
 }
 function selectChanged() {
   var theme = document.getElementById('theme').value;
-  var logo = document.getElementById("pic").src;
-  var styles = document.getElementById("styles").href;
   if (theme == 'bo') {
-    logo = "/themes/blueorange/stephenritchie74.png";
-    styles = "/themes/blueorange/styles.css";
-  }
+    document.getElementById("pic").src = "https://stephenritchie74.github.io/themes/blueorange/stephenritchie74.png";
+    document.getElementById("styles").href = "https://stephenritchie74.github.io/themes/blueorange/styles.css";
+  };
 }
 window.onload = init;
