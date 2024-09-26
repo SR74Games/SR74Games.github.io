@@ -2,7 +2,8 @@ function init() {
     document.getElementById('theme').onchange = selectChanged;
 }
 function selectChanged() {
-    var theme = document.getElementById('theme').value;
+    var select = document.querySelector('#theme');
+    var theme = select.value;
     var logo = document.getElementById('pic').src;
     var styles = document.getElementById('styles').href;
     if (theme == bo) {
