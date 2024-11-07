@@ -13,11 +13,11 @@ function selectChanged() {
   if (theme == 'bo') {
     document.getElementById("pic").src = "https://stephenritchie74.github.io/themes/blueorange/stephenritchie74.png";
     document.getElementById("styles").href = "https://stephenritchie74.github.io/themes/blueorange/styles.css";
-    document.cookie = "theme=bo";
+    document.cookie = "theme=bo; path=/";
   } else {
   	document.getElementById("pic").src = "https://stephenritchie74.github.io/stephenritchie74.png";
     document.getElementById("styles").href = "https://stephenritchie74.github.io/styles.css";
-    document.cookie = "theme=bg";
+    document.cookie = "theme=bg; path=/";
   }
 }
 window.onload = init;
