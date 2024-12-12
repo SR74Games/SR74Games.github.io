@@ -68,13 +68,15 @@ footer p {
     margin-right: 5px;
   }
   footer {
-    display: none;
+    visibility: hidden;
   }
   footer div#themewrapper {
-    display: block;
-    position: absolute;
-    left: 5px;
-    bottom: 5px;
+    border-top: 2px solid #0bda50;
+    visibility: visible !important;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 }
 @media only screen and (min-width: 768px) {
