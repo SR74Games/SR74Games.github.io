@@ -66,8 +66,16 @@ footer p {
     text-decoration:none;
     margin-right:5px;
   }
-  footer{
-    display:none;
+  footer {
+    visibility: hidden;
+  }
+  footer div#themewrapper {
+    border-top: 2px solid #ee8400;
+    visibility: visible !important;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
 }
 @media only screen and (min-width: 768px) {
