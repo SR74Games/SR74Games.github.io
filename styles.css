@@ -67,6 +67,15 @@ footer p {
     text-decoration: none;
     margin-right: 5px;
   }
+  footer {
+    display: none;
+  }
+  footer div#themewrapper {
+    display: block;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
 }
 @media only screen and (min-width: 768px) {
   #topnav a {
