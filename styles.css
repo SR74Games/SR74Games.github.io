@@ -96,6 +96,9 @@ footer p {
   color: #0bda50;
   font-family: Verdana, sans-serif;
 }
+p {
+  line-height:1.6em
+}
 #topnav {
   float: right;
 }
