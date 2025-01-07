@@ -125,7 +125,6 @@ header {
 img[src$="/stephenritchie74.png"] {
   height: 100%;
   min-height: 55px;
-  width: fit-content;
 }
 h1 {
   font-family: Futura, sans-serif;
