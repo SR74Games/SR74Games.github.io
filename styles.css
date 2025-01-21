@@ -122,9 +122,10 @@ header {
   width: 77%;
   overflow: scroll;
 }
-img[src$="/stephenritchie74.png"] {
+img#pic {
   height: 100%;
   min-height: 55px;
+  width: auto;
 }
 h1 {
   font-family: Futura, sans-serif;
