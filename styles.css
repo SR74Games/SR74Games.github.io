@@ -93,8 +93,12 @@ footer p {
   }
 }
 * {
-  color: rgb(252, 107, 3);
+  color: white;
   font-family: Verdana, sans-serif;
+}
+h1, h2, h3 {
+  color:rgb(252, 107, 3);]
+  font-family: Futura, sans-serif;
 }
 p {
   line-height: 1.6em;
@@ -126,9 +130,6 @@ img#pic {
   height: 100%;
   min-height: 55px;
   width: auto;
-}
-h1 {
-  font-family: Futura, sans-serif;
 }
 fieldset {
   border: 2px solid rgb(252, 107, 3);
