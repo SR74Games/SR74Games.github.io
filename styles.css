@@ -5,7 +5,7 @@ footer {
   left: 0;
   width: 100%;
   border-top: 2px solid rgb(252, 107, 3);
-  background-color: white;
+  background-color: black;
   min-height: 20px;
   max-height: 5%;
   padding-top: 0;
@@ -29,7 +29,7 @@ footer p {
   margin-top: 2px;
 }
 #side li:hover {
-  color: white;
+  color: black;
   background-color: rgb(252, 107, 3);
 }
 #side ul a {
@@ -110,7 +110,7 @@ header {
   width: 100%;
   height: 10%;
   min-height: 57px;
-  background-color: white;
+  background-color: black;
   z-index: 5;
 }
 #main {
@@ -142,7 +142,7 @@ legend {
   font-family: sans-serif;
 }
 body {
-  background-color: white;
+  background-color: black;
 }
 figure {
   border: 2px solid rgb(252, 107, 3);
@@ -210,7 +210,7 @@ label {
   display: inline-block;
 }
 select {
-  background-color: white;
+  background-color: black;
   border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
   margin: 1px;
@@ -219,7 +219,7 @@ select:focus-visible {
   outline: none;
 }
 button {
-  background-color: white;
+  background-color: black;
   border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
 }
