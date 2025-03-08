@@ -118,6 +118,9 @@ header {
   background-color: white;
   z-index: 5;
 }
+a {
+  color:rgb(252, 107, 3);
+}
 #main {
   position: absolute;
   top: 10%;
