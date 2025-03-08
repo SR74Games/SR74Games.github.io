@@ -4,8 +4,8 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  border-top: 2px solid #0bda50;
-  background-color: #003499;
+  border-top: 2px solid rgb(252, 107, 3);
+  background-color: white;
   min-height: 20px;
   max-height: 5%;
   padding-top: 0;
@@ -23,14 +23,14 @@ footer p {
   margin-right: auto;
   width: 67%;
   text-align: center;
-  border: 2px solid #0bda50;
+  border: 2px solid rgb(252, 107, 3);
   overflow: hidden;
   border-radius: 5px;
   margin-top: 2px;
 }
 #side li:hover {
-  color: #003499;
-  background-color: #0bda50;
+  color: white;
+  background-color: rgb(252, 107, 3);
 }
 #side ul a {
   text-decoration: none;
@@ -43,7 +43,7 @@ footer p {
   bottom: 5%;
   float: left;
   margin-right: 10px;
-  border-right: 2px solid #0bda50;
+  border-right: 2px solid rgb(252, 107, 3);
   width: 20%;
 }
 @media only screen and (max-width: 768px) {
@@ -71,7 +71,7 @@ footer p {
     visibility: hidden;
   }
   footer div#themewrapper {
-    border-top: 2px solid #0bda50;
+    border-top: 2px solid rgb(252, 107, 3);
     visibility: visible !important;
     width:100%;
     position: fixed;
@@ -93,7 +93,7 @@ footer p {
   }
 }
 * {
-  color: #0bda50;
+  color: rgb(252, 107, 3);
   font-family: Verdana, sans-serif;
 }
 p {
@@ -106,11 +106,11 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 2px solid #0bda50;
+  border-bottom: 2px solid rgb(252, 107, 3);
   width: 100%;
   height: 10%;
   min-height: 57px;
-  background-color: #003499;
+  background-color: white;
   z-index: 5;
 }
 #main {
@@ -131,21 +131,21 @@ h1 {
   font-family: Futura, sans-serif;
 }
 fieldset {
-  border: 2px solid #0bda50;
+  border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
   margin-bottom: 10px;
 }
 legend {
-  border: 2px solid #0bda50;
+  border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
-  color: #0bda50;
+  color: rgb(252, 107, 3);
   font-family: sans-serif;
 }
 body {
-  background-color: #003499;
+  background-color: white;
 }
 figure {
-  border: 2px solid #0bda50;
+  border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
   margin: 2px;
   margin-top: 5px;
@@ -175,7 +175,7 @@ meter::-webkit-meter-bar {
   background-color: #0002;
 }
 meter::-webkit-meter-optimum-value {
-  background-image: linear-gradient(#0bda50, #0bda50);
+  background-image: linear-gradient(rgb(252, 107, 3), rgb(252, 107, 3));
   border-radius: 5px;
   border: none;
 }
@@ -190,7 +190,7 @@ meter::-webkit-meter-optimum-value {
   background-image: linear-gradient(#0000, #0000);
 }
 :-moz-meter-optimum::-moz-meter-bar {
-  background-image: linear-gradient(#0bda50, #0bda50);
+  background-image: linear-gradient(rgb(252, 107, 3), rgb(252, 107, 3));
   border-radius: 5px;
   border: none;
 }
@@ -210,8 +210,8 @@ label {
   display: inline-block;
 }
 select {
-  background-color: #003499;
-  border: 2px solid #0bda50;
+  background-color: white;
+  border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
   margin: 1px;
 }
@@ -219,7 +219,7 @@ select:focus-visible {
   outline: none;
 }
 button {
-  background-color: #003499;
-  border: 2px solid #0bda50;
+  background-color: white;
+  border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
 }
