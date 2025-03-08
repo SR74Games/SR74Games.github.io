@@ -5,7 +5,7 @@ footer {
   left: 0;
   width: 100%;
   border-top: 2px solid rgb(252, 107, 3);
-  background-color: black;
+  background-color: white;
   min-height: 20px;
   max-height: 5%;
   padding-top: 0;
@@ -93,7 +93,7 @@ footer p {
   }
 }
 * {
-  color: white;
+  color: black;
   font-family: Verdana, sans-serif;
 }
 h1, h2, h3 {
@@ -114,7 +114,7 @@ header {
   width: 100%;
   height: 10%;
   min-height: 57px;
-  background-color: black;
+  background-color: white;
   z-index: 5;
 }
 #main {
@@ -143,7 +143,7 @@ legend {
   font-family: sans-serif;
 }
 body {
-  background-color: black;
+  background-color: white;
 }
 figure {
   border: 2px solid rgb(252, 107, 3);
@@ -211,7 +211,7 @@ label {
   display: inline-block;
 }
 select {
-  background-color: black;
+  background-color: white;
   border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
   margin: 1px;
@@ -220,7 +220,7 @@ select:focus-visible {
   outline: none;
 }
 button {
-  background-color: black;
+  background-color: white;
   border: 2px solid rgb(252, 107, 3);
   border-radius: 5px;
 }
