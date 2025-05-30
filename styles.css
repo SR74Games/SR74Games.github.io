@@ -49,7 +49,7 @@ footer p {
 }
 @media only screen and (max-width: 768px) {
   #side {
-    display: none;
+    /*display: none;*/
   }
   #main {
     width: 98% !important;
@@ -98,7 +98,7 @@ footer p {
   font-family: Verdana, sans-serif;
 }
 h1, h2, h3 {
-  color:rgb(252, 107, 3);]
+  color:rgb(252, 107, 3);
   font-family: Futura, sans-serif;
 }
 p {
